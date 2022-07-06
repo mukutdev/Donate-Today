@@ -101,13 +101,13 @@
     padding: 40px 30px;
     border-radius: 5px;
 }
-.items h2{
+.title-part{
 font-size: 24px;
 color: #121212;
 padding: 20px 0;
 
 }
-.items p{
+.text-part{
     font-size: 16px;
     color: #707070;
 }
@@ -119,4 +119,64 @@ padding: 20px 0;
 }
 #plan-three{
     background-color: #FFF4D6;
+}
+.contribute-area{
+    display: flex;
+    justify-content: center;
+    margin: 2% 5%;
+}
+.details{
+    width: 30%;
+    margin: 30px;
+    padding: 40px 30px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 7px 8px 30px rgb(110 101 101 / 0%);
+}
+.details img{
+    width: 100%;
+}
+.subsribe-wrapper{
+    margin: 2% 5%;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-form{
+    width: 700px;
+    background: #FFF4D6;
+    padding: 80px 0px;
+    text-align: center;
+}
+.subscribe-input{
+    width: 50%;
+    border: none;
+    padding: 10px;
+    background-color: #AA9F9F;
+    outline: 0;
+    font-size: 16px;
+    color: #fff;
+}
+::placeholder {
+    color: #ebe7e7;
+  }
+.subscribe-submit{
+    background-color: #FF5959;
+    border: none;
+    padding: 10px 20px;
+    margin: 0px -5px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.footer-area{
+    margin-top: 60px;
+    background-color: #121212;
+    text-align: center;
+    padding: 50px;
+}
+.footer-area h1{
+color: #FF5959
+}
+.footer-area p{
+    color: #fff;
 }
