@@ -45,7 +45,7 @@
     text-align: center;
     color: #121212;
 }
-.donate-area p{
+.donate-text{
     margin-top: 30px;
     text-align: center;
     color: #707070;
@@ -70,4 +70,53 @@
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
     color: #FF5959;
+}
+.donate-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.donate-form-field {
+    width: 700px;
+}
+
+.amount-field{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #dadada;
+    outline: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+}
+.donate-plan-items{
+    display: flex;
+    justify-content: center;
+    margin: 2% 5%;
+}
+.items{
+    width: 30%;
+    margin: 30px;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+.items h2{
+font-size: 24px;
+color: #121212;
+padding: 20px 0;
+
+}
+.items p{
+    font-size: 16px;
+    color: #707070;
+}
+#plan-one{
+    background-color: rgba(79,157,166, 10%);
+}
+#plan-two{
+    background-color: rgba(255,89,89, 10%);
+}
+#plan-three{
+    background-color: #FFF4D6;
 }
